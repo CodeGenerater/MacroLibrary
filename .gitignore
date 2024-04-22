@@ -362,3 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /POE_Macro/POE_Macro.csproj
+/POE_Macro/MainWindow.xaml
+/POE_Macro/App.xaml
+/POE_Macro/App.config
