@@ -4,46 +4,6 @@ using System.ComponentModel;
 
 namespace MacroLibrary
 {
-	[Flags]
-	internal enum MouseEventFlag : int
-	{
-		Move		= 0x0001,
-		LDown		= 0x0002,
-		LUp			= 0x0004,
-		RDown		= 0x0008,
-		RUp			= 0x0010,
-		MDown		= 0x0020,
-		MUp			= 0x0040,
-		XDown		= 0x0080,
-		XUp			= 0x0100,
-		Wheel		= 0x0800,
-		HWheel		= 0x1000,
-		Absolute	= 0x8000,
-	}
-
-	/// <summary>
-	/// 마우스 버튼의 열거형입니다.
-	/// </summary>
-	public enum mBtn
-	{
-		L	= 1,
-		R	= 2,
-		M	= 3,
-		X1	= 4,
-		X2	= 5,
-	}
-
-	[Flags]
-	public enum BtnState
-	{
-		U		= 0x0,
-		Up		= 0x0,
-		D		= 0x1,
-		Down	= 0x1,
-		T		= 0x2,
-		Toggled	= 0x2,
-	}
-
 	public class MacroMouse
 	{
 		#region Property

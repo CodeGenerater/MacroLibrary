@@ -44,7 +44,7 @@ namespace MacroLibrary
 		/// 하위 비트가 1이면 토글되어 있는 것 입니다.
 		/// </returns>
 		[DllImport("user32.dll")]
-		public static extern int GetKeyState([In] int vVirtKey);
+		public static extern short GetKeyState([In] int vVirtKey);
 		#endregion
 
 		#region Mouse
@@ -62,7 +62,10 @@ namespace MacroLibrary
 
 		#region Keyboard
 		[DllImport("user32.dll")]
-		public static extern void keybd_event([In]byte bVk, [In]byte bScan, [In]int dwFlags, [In]IntPtr dwExtraInfo);
+		public static extern void keybd_event([In]byte bVk, [In]byte bScan, [In]int dwFlags, [In]UIntPtr dwExtraInfo);
+
+		[DllImport("user32.dll")]
+		public static extern uint MapVirtualKeyA(uint uCode, uint uMapType);
 		#endregion
 
 	}
