@@ -361,14 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/POE_Macro/POE_Macro.csproj
-/POE_Macro/MainWindow.xaml
-/POE_Macro/App.xaml
-/POE_Macro/App.config
-/POE_Macro/Properties/AssemblyInfo.cs
-/POE_Macro/Properties/Resources.Designer.cs
-/POE_Macro/Properties/Resources.resx
-/POE_Macro/Properties/Settings.Designer.cs
-/POE_Macro/Properties/Settings.settings
-/POE_Macro/App.xaml.cs
-/POE_Macro/MainWindow.xaml.cs
